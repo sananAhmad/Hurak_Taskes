@@ -23,6 +23,18 @@ DB_PASSWORD=
 
 
 
+## Make sure to use mail credentials 
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=614f5b2780212b
+MAIL_PASSWORD=12fd8312481e8c
+MAIL_ENCRYPTION=tls
+
+
+i'm using this credentials if you have your won credentials otherwise use this
+
+
 # Generate a new application key
 php artisan key:generate
 
